@@ -1,0 +1,90 @@
+
+
+li , ul, ol {
+	list-style: none;
+}
+nav {
+
+	background-color: rgb(25,44,75);
+    
+}
+
+.menu ul a {
+    
+	color: white;
+	text-decoration: none;
+	font-family: Arial;
+	font-weight: bold;
+    
+}
+
+.menu ul {
+    
+	list-style-type: none;
+    
+}
+
+.menu {
+
+	display: inline-block;
+	width: 100%;
+	
+}
+
+.nav > li {
+    
+	float: left;
+    
+}
+
+
+.nav li a:hover {
+
+	background-color: white;
+	color: rgb(25,44,75);
+	
+}
+
+.nav li a {
+    
+	padding: 15px;
+	border: 2.5px;
+	margin: 10px;
+	display:block;
+    
+}
+
+.nav li ul {
+    
+	display:none;
+	position:absolute;
+
+}
+
+.nav li:hover > ul {
+    
+	display:block;
+    
+}
+
+.nav li ul li {
+    
+	position:relative;
+    
+}
+.nav li ul {
+    
+	display:none;
+	
+}
+
+.sub-menu{
+	background-color: rgb(25,44,75);
+	margin: 0px;
+	padding: 0px;
+}
+
+.sub-menu li{
+	margin: 0px;
+	padding: 0px;
+}

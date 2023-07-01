@@ -1,0 +1,84 @@
+
+header {
+
+	background-color: rgb(25,44,75);
+}
+
+.foto, .contacto, .nombre {
+
+	background-color: rgb(25,44,75);
+	color: white;
+	font-weight: bold;
+	font-family: Arial;
+	display: inline-block;
+	width: 33%;
+	height: auto;
+	
+}
+
+.contacto ul a {
+
+	color: white;
+	text-decoration: none;
+	font-family: Arial;
+	font-weight: bold;
+	
+}
+
+.contacto ul {
+
+	list-style-type: none;
+}
+
+.foto img {
+
+	border-radius: 50%
+}
+
+/*.foto {
+	
+	position: fixed;
+	top:30px;
+	left: 10%;
+	z-index: 9;
+	
+}
+
+.nombre {
+	
+	position: fixed;
+	top: 30px;
+	left: 55%;
+	z-index: 9;
+}
+
+.contacto {
+	
+	position: fixed;
+	top: 30px;
+	left: ;
+	z-index: 9;
+}*/
+.footer {
+    
+	background-color: rgb(25,44,75);
+ 	color: white;
+	padding: 20px;
+	border 5px;
+	position: fixed;
+	bottom: 0px;
+	font-weight: bold;
+	font-family: Arial;
+	text-align: center;
+	width: 100%;
+	
+}
+
+.bienvenido{
+	
+	margin-bottom: 15px;
+}
+
+.caja-grande{
+	width: 100%;
+}
